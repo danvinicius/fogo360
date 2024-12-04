@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Cabeçalho -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Fogo360"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Texto de boas-vindas -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Seja bem-vindo!"
+        android:textSize="18sp" />
+
+    <!-- Descrição do aplicativo -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingBottom="32dp"
+        android:text="O Fogo360 é um aplicativo acadêmico para atualização e registro de incêndios locais. "
+        android:textSize="18sp" />
+
+    <!-- Botão de entrada -->
+    <Button
+        android:id="@+id/enterButton"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="Entrar" />
+
+    <TextView
+        android:id="@+id/mqttMessageTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aguardando conexão..."
+        android:textSize="16sp"
+        android:paddingTop="16dp" />
+
+</LinearLayout>

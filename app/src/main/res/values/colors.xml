@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF9800</color> <!-- Laranja principal -->
+    <color name="colorPrimaryVariant">#F57C00</color> <!-- Laranja mais escuro -->
+    <color name="colorOnPrimary">#FFFFFF</color> <!-- Texto em cima do botão laranja -->
+    <color name="colorSecondary">#FFA726</color> <!-- Laranja secundário -->
+    <color name="colorSecondaryVariant">#FB8C00</color> <!-- Laranja mais escuro para o secundário -->
+    <color name="colorOnSecondary">#000000</color> <!-- Texto para itens secundários -->
+    <color name="background">#FFFFFF</color> <!-- Cor de fundo -->
+</resources>
